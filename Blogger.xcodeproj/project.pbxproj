@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA94A40138998BB0040FF00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA94A3F138998BB0040FF00 /* UIKit.framework */; };
+		5AA94A42138998BB0040FF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA94A41138998BB0040FF00 /* Foundation.framework */; };
+		5AA94A44138998BB0040FF00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA94A43138998BB0040FF00 /* CoreGraphics.framework */; };
+		5AA94A4A138998BB0040FF00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA94A48138998BB0040FF00 /* InfoPlist.strings */; };
+		5AA94A4D138998BB0040FF00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A4C138998BB0040FF00 /* main.m */; };
+		5AA94A50138998BC0040FF00 /* BloggerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */; };
+		5AA94A53138998BC0040FF00 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA94A51138998BC0040FF00 /* MainWindow.xib */; };
+		5AA94A56138998BC0040FF00 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A55138998BC0040FF00 /* PostsViewController.m */; };
+		5AA94A59138998BC0040FF00 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA94A57138998BC0040FF00 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AA94A3B138998BB0040FF00 /* Blogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA94A3F138998BB0040FF00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AA94A41138998BB0040FF00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AA94A43138998BB0040FF00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AA94A47138998BB0040FF00 /* Blogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blogger-Info.plist"; sourceTree = "<group>"; };
+		5AA94A49138998BB0040FF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AA94A4B138998BB0040FF00 /* Blogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blogger-Prefix.pch"; sourceTree = "<group>"; };
+		5AA94A4C138998BB0040FF00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AA94A4E138998BB0040FF00 /* BloggerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloggerAppDelegate.h; sourceTree = "<group>"; };
+		5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloggerAppDelegate.m; sourceTree = "<group>"; };
+		5AA94A52138998BC0040FF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5AA94A54138998BC0040FF00 /* PostsViewController.h */ = {isa = PBXFileReference; path = PostsViewController.h; sourceTree = "<group>"; };
+		5AA94A55138998BC0040FF00 /* PostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
+		5AA94A58138998BC0040FF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA94A38138998BB0040FF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA94A40138998BB0040FF00 /* UIKit.framework in Frameworks */,
+				5AA94A42138998BB0040FF00 /* Foundation.framework in Frameworks */,
+				5AA94A44138998BB0040FF00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA94A30138998BB0040FF00 = {
+			isa = PBXGroup;
+			children = (
+				5AA94A45138998BB0040FF00 /* Blogger */,
+				5AA94A3E138998BB0040FF00 /* Frameworks */,
+				5AA94A3C138998BB0040FF00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA94A3C138998BB0040FF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A3B138998BB0040FF00 /* Blogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA94A3E138998BB0040FF00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A3F138998BB0040FF00 /* UIKit.framework */,
+				5AA94A41138998BB0040FF00 /* Foundation.framework */,
+				5AA94A43138998BB0040FF00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA94A45138998BB0040FF00 /* Blogger */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A4E138998BB0040FF00 /* BloggerAppDelegate.h */,
+				5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */,
+				5AA94A51138998BC0040FF00 /* MainWindow.xib */,
+				5AA94A54138998BC0040FF00 /* PostsViewController.h */,
+				5AA94A55138998BC0040FF00 /* PostsViewController.m */,
+				5AA94A57138998BC0040FF00 /* RootViewController.xib */,
+				5AA94A46138998BB0040FF00 /* Supporting Files */,
+			);
+			path = Blogger;
+			sourceTree = "<group>";
+		};
+		5AA94A46138998BB0040FF00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A47138998BB0040FF00 /* Blogger-Info.plist */,
+				5AA94A48138998BB0040FF00 /* InfoPlist.strings */,
+				5AA94A4B138998BB0040FF00 /* Blogger-Prefix.pch */,
+				5AA94A4C138998BB0040FF00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA94A3A138998BB0040FF00 /* Blogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA94A5C138998BC0040FF00 /* Build configuration list for PBXNativeTarget "Blogger" */;
+			buildPhases = (
+				5AA94A37138998BB0040FF00 /* Sources */,
+				5AA94A38138998BB0040FF00 /* Frameworks */,
+				5AA94A39138998BB0040FF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blogger;
+			productName = Blogger;
+			productReference = 5AA94A3B138998BB0040FF00 /* Blogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA94A32138998BB0040FF00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "The Code Boutique";
+			};
+			buildConfigurationList = 5AA94A35138998BB0040FF00 /* Build configuration list for PBXProject "Blogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AA94A30138998BB0040FF00;
+			productRefGroup = 5AA94A3C138998BB0040FF00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA94A3A138998BB0040FF00 /* Blogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA94A39138998BB0040FF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA94A4A138998BB0040FF00 /* InfoPlist.strings in Resources */,
+				5AA94A53138998BC0040FF00 /* MainWindow.xib in Resources */,
+				5AA94A59138998BC0040FF00 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA94A37138998BB0040FF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA94A4D138998BB0040FF00 /* main.m in Sources */,
+				5AA94A50138998BC0040FF00 /* BloggerAppDelegate.m in Sources */,
+				5AA94A56138998BC0040FF00 /* PostsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AA94A48138998BB0040FF00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA94A49138998BB0040FF00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AA94A51138998BC0040FF00 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA94A52138998BC0040FF00 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5AA94A57138998BC0040FF00 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA94A58138998BC0040FF00 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AA94A5A138998BC0040FF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AA94A5B138998BC0040FF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5AA94A5D138998BC0040FF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blogger/Blogger-Prefix.pch";
+				INFOPLIST_FILE = "Blogger/Blogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AA94A5E138998BC0040FF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blogger/Blogger-Prefix.pch";
+				INFOPLIST_FILE = "Blogger/Blogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA94A35138998BB0040FF00 /* Build configuration list for PBXProject "Blogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA94A5A138998BC0040FF00 /* Debug */,
+				5AA94A5B138998BC0040FF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA94A5C138998BC0040FF00 /* Build configuration list for PBXNativeTarget "Blogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA94A5D138998BC0040FF00 /* Debug */,
+				5AA94A5E138998BC0040FF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA94A32138998BB0040FF00 /* Project object */;
+}
