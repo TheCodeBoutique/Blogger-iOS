@@ -16,6 +16,13 @@
 		5AA94A53138998BC0040FF00 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA94A51138998BC0040FF00 /* MainWindow.xib */; };
 		5AA94A56138998BC0040FF00 /* PostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A55138998BC0040FF00 /* PostsViewController.m */; };
 		5AA94A59138998BC0040FF00 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA94A57138998BC0040FF00 /* RootViewController.xib */; };
+		5AA94A7513899F860040FF00 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A6A13899F860040FF00 /* NSObject+SBJSON.m */; };
+		5AA94A7613899F860040FF00 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A6C13899F860040FF00 /* NSString+SBJSON.m */; };
+		5AA94A7713899F860040FF00 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A6E13899F860040FF00 /* SBJSON.m */; };
+		5AA94A7813899F860040FF00 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A7013899F860040FF00 /* SBJsonBase.m */; };
+		5AA94A7913899F860040FF00 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A7213899F860040FF00 /* SBJsonParser.m */; };
+		5AA94A7A13899F860040FF00 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A7413899F860040FF00 /* SBJsonWriter.m */; };
+		5AA94A7E1389A0D80040FF00 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA94A7D1389A0D80040FF00 /* Post.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +37,24 @@
 		5AA94A4E138998BB0040FF00 /* BloggerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloggerAppDelegate.h; sourceTree = "<group>"; };
 		5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloggerAppDelegate.m; sourceTree = "<group>"; };
 		5AA94A52138998BC0040FF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5AA94A54138998BC0040FF00 /* PostsViewController.h */ = {isa = PBXFileReference; path = PostsViewController.h; sourceTree = "<group>"; };
+		5AA94A54138998BC0040FF00 /* PostsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostsViewController.h; sourceTree = "<group>"; };
 		5AA94A55138998BC0040FF00 /* PostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostsViewController.m; sourceTree = "<group>"; };
 		5AA94A58138998BC0040FF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		5AA94A6813899F860040FF00 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5AA94A6913899F860040FF00 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5AA94A6A13899F860040FF00 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5AA94A6B13899F860040FF00 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5AA94A6C13899F860040FF00 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		5AA94A6D13899F860040FF00 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5AA94A6E13899F860040FF00 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		5AA94A6F13899F860040FF00 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5AA94A7013899F860040FF00 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		5AA94A7113899F860040FF00 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5AA94A7213899F860040FF00 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		5AA94A7313899F860040FF00 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5AA94A7413899F860040FF00 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5AA94A7C1389A0D80040FF00 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		5AA94A7D1389A0D80040FF00 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A3135141389C4D000F7FE91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A57138998BC0040FF00 /* RootViewController.xib */,
+				5AA94A51138998BC0040FF00 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5AA0C88D1389C00F0069E6B7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A6713899F860040FF00 /* json-framework */,
+			);
+			name = Vendor;
+			path = Blogger;
+			sourceTree = "<group>";
+		};
 		5AA94A30138998BB0040FF00 = {
 			isa = PBXGroup;
 			children = (
-				5AA94A45138998BB0040FF00 /* Blogger */,
+				5A3135141389C4D000F7FE91 /* Resources */,
+				5AA0C88D1389C00F0069E6B7 /* Vendor */,
+				5AA94A45138998BB0040FF00 /* Classes */,
 				5AA94A3E138998BB0040FF00 /* Frameworks */,
 				5AA94A3C138998BB0040FF00 /* Products */,
 			);
@@ -76,17 +118,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5AA94A45138998BB0040FF00 /* Blogger */ = {
+		5AA94A45138998BB0040FF00 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5AA94A4E138998BB0040FF00 /* BloggerAppDelegate.h */,
-				5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */,
-				5AA94A51138998BC0040FF00 /* MainWindow.xib */,
 				5AA94A54138998BC0040FF00 /* PostsViewController.h */,
 				5AA94A55138998BC0040FF00 /* PostsViewController.m */,
-				5AA94A57138998BC0040FF00 /* RootViewController.xib */,
+				5AA94A7C1389A0D80040FF00 /* Post.h */,
+				5AA94A7D1389A0D80040FF00 /* Post.m */,
+				5AA94A4E138998BB0040FF00 /* BloggerAppDelegate.h */,
+				5AA94A4F138998BC0040FF00 /* BloggerAppDelegate.m */,
 				5AA94A46138998BB0040FF00 /* Supporting Files */,
 			);
+			name = Classes;
 			path = Blogger;
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,26 @@
 				5AA94A4C138998BB0040FF00 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AA94A6713899F860040FF00 /* json-framework */ = {
+			isa = PBXGroup;
+			children = (
+				5AA94A6813899F860040FF00 /* JSON.h */,
+				5AA94A6913899F860040FF00 /* NSObject+SBJSON.h */,
+				5AA94A6A13899F860040FF00 /* NSObject+SBJSON.m */,
+				5AA94A6B13899F860040FF00 /* NSString+SBJSON.h */,
+				5AA94A6C13899F860040FF00 /* NSString+SBJSON.m */,
+				5AA94A6D13899F860040FF00 /* SBJSON.h */,
+				5AA94A6E13899F860040FF00 /* SBJSON.m */,
+				5AA94A6F13899F860040FF00 /* SBJsonBase.h */,
+				5AA94A7013899F860040FF00 /* SBJsonBase.m */,
+				5AA94A7113899F860040FF00 /* SBJsonParser.h */,
+				5AA94A7213899F860040FF00 /* SBJsonParser.m */,
+				5AA94A7313899F860040FF00 /* SBJsonWriter.h */,
+				5AA94A7413899F860040FF00 /* SBJsonWriter.m */,
+			);
+			path = "json-framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +230,13 @@
 				5AA94A4D138998BB0040FF00 /* main.m in Sources */,
 				5AA94A50138998BC0040FF00 /* BloggerAppDelegate.m in Sources */,
 				5AA94A56138998BC0040FF00 /* PostsViewController.m in Sources */,
+				5AA94A7513899F860040FF00 /* NSObject+SBJSON.m in Sources */,
+				5AA94A7613899F860040FF00 /* NSString+SBJSON.m in Sources */,
+				5AA94A7713899F860040FF00 /* SBJSON.m in Sources */,
+				5AA94A7813899F860040FF00 /* SBJsonBase.m in Sources */,
+				5AA94A7913899F860040FF00 /* SBJsonParser.m in Sources */,
+				5AA94A7A13899F860040FF00 /* SBJsonWriter.m in Sources */,
+				5AA94A7E1389A0D80040FF00 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +257,7 @@
 				5AA94A52138998BC0040FF00 /* en */,
 			);
 			name = MainWindow.xib;
+			path = Blogger;
 			sourceTree = "<group>";
 		};
 		5AA94A57138998BC0040FF00 /* RootViewController.xib */ = {
@@ -195,6 +266,7 @@
 				5AA94A58138998BC0040FF00 /* en */,
 			);
 			name = RootViewController.xib;
+			path = Blogger;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +351,7 @@
 				5AA94A5E138998BC0040FF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

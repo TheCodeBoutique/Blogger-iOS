@@ -14,5 +14,5 @@
 
 @property (nonatomic, retain) NSArray *posts;
 
-
 @end
+
